@@ -3,7 +3,7 @@
 moneyDesafio puede conversiones de monedas, hacer operaciones aritméticas y demas.
 Las caractersticas y el uso serán descritos a continuacion
  
-###Configurar la moneda default y sus respectivas conversiones (here, EUR) ⚙ ️
+### Configurar la moneda default y sus respectivas conversiones (here, EUR) ⚙ ️
 ```ruby
 Money.configure do |config|
   config.default_currency = "EUR"
@@ -58,12 +58,12 @@ twenty_dollars < fifty_eur             # => true
 
 #instalacion 🔧
 ```
-gem install your_gem
+gem install moneyDesafio
 ```
 
 es capaz de ser cargada desde irb
 ```
 irb
-require 'your_gem'
+require 'moneydesafio'
 Money.new
 ```
